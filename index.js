@@ -50,7 +50,7 @@ function loader( source ) {
   var template = dust.compile( source, name ); 
 
   // Return the code needed to run this template
-  return "var dust = require('" + options.dustAlias + "/lib/dust'); "
+  return ""
       + deps.join( ' ' )
       + template
       + "var fn = " + options.wrapperGenerator( name )

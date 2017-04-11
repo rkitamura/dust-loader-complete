@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/wombatsecurity/dust-loader-complete",
   "dependencies": {
-    "dustjs-linkedin": "^2.7.2",
+    "dustjs-linkedin": "^2.2.3",
     "loader-utils": "^0.2.16",
     "object-assign": "^3.0.0"
   },
